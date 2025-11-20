@@ -72,5 +72,5 @@ First, I recommend reviewing the notebook before running the project in a web br
 >>
 >> $response = Invoke-RestMethod -Uri http://localhost:8000/predict -Method POST -Body ($patient | ConvertTo-Json) -ContentType "application/json"
 >> $response
-* Or --> docker exec -it container_name python3 /myapp/serve.py
+* Or --> `docker exec -it container_name python3 /myapp/serve.py`
 
