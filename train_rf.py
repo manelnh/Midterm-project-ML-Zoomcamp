@@ -28,8 +28,8 @@ def train(df_train, y_train):
   X_train = dv.fit_transform(train_dicts)
 
   model = RandomForestClassifier(
-      n_estimators=10, 
-      max_depth=12,         
+      n_estimators=70, 
+      max_depth=4,         
       random_state=1,  
       min_samples_leaf=1,        
       n_jobs=-1                 
@@ -63,3 +63,4 @@ output_file = 'rf_model.bin'
 with open(output_file, 'wb') as file_out:
   pickle.dump((dv, model), file_out)
 print(f"The model is saved to {output_file}")
+
