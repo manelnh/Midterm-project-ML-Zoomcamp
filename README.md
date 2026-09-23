@@ -1,4 +1,4 @@
-## Heart Disease Detecttion Project
+## Heart Disease Detection Project
 ### Context
 * Machine learning has become an essential component in the functioning of various sectors and application domains, particularly in healthcare,
 where significant advancements are needed to improve and save lives. Within healthcare, I chose to focus on cardiovascular diseases (CVDs),
